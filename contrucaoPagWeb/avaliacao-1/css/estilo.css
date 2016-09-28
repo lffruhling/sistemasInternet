@@ -216,46 +216,83 @@ aside #titulo-anuncio{
 #Quadro-esportes{
 	width: 695px;
 	margin: 5px;
-	background-color: #00CA56;
+}
 
+#Quadro-esportes div{
+	float: right;
+	width: 360px;
+	margin-right: 5px;
+}
+
+#Quadro-esportes div h4{
+	font-family: 'Nunito', sans-serif;
+	color: #CD6E00;
+}
+
+#Quadro-esportes div h3{
+	margin-top: 2px;
+	font-family: 'Nunito', sans-serif;
+	color: #CD6E00;
+}
+
+#Quadro-esportes div p{
+	font-family: 'Droid Sans Mono', monospace;
+	text-align: justify;
+	font-size: 10pt;
+	padding-top: 2px;
+}
+
+.hr-esportes{
+	border: solid 2px #CD6E00;
 }
 
 /*anuncio rodapé*/
 
 .anuncio-rodape{
 	margin-left: 10%;
-
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 /*noticias bloco geral -4*/
-#geral-1{
-	width: 214px;
-	height: 260px;
-	margin: 5px;
-	padding: 5px;
-	float: left;
-	background-color: blueviolet;
+
+#noticia-geral p{
+	font-family: 'Droid Sans Mono', monospace;
+	text-align: justify;
+	font-size: 10pt;
+	padding-top: 2px;
 }
 
-#geral-2{
-	width: 214px;
-	height: 260px;
-	margin: 5px;
-	padding: 5px;
+.geral{
+	width: 220px;
+	height: 235px;
+	padding: 5px 5px 5px 9px;
 	float: left;
-	background-color: chartreuse;
 }
 
-#geral-3{
-	width: 214px;
-	height: 260px;
-	margin: 5px;
-	padding: 5px;
-	float: left;
-	background-color: coral;
+.noticia-geral{
+	font-family: 'Nunito', sans-serif;
+	color: #CC2B00;
+}
+
+.hr-geral{
+	border: solid 2px #CC2B00;
+}
+
+/*hr footer*/
+
+article hr{
+	margin-top: 2px;
+	border: solid 2px #00923F;
+
 }
 
 /*anuncios-footer*/
+
+#anuncios-footer{
+	margin-top: 5px;
+	margin-left: 5px;
+}
 
 #anuncios-footer img{
 	margin-left: 3px;
