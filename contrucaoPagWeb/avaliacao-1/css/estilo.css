@@ -1,9 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Nunito';
+/*
+	Fonte título e tag: 	font-family: 'Nunito', sans-serif;
+	Fonte demais textos: 	font-family: 'Droid Sans Mono', monospace;
+
+*/
 *{
 	margin: 0;
 	padding: 0;
 }
 
 body{
+	margin: auto;
 	width: 900px;
 }
 
@@ -11,7 +18,12 @@ body{
 header{
 	margin-top: 10px;
 	height: 90px;
-	background-color: grey;
+}
+
+header div input{
+	margin-top: 40px;
+	font-size: 14pt;
+	padding: 2px;
 }
 
 h6{
@@ -28,8 +40,8 @@ h6{
 	float: left;
 	text-align: center;
 	margin-top: 25px;
-	margin-right: 110px;
-	margin-left: 100px;
+	margin-right: 70px;
+	margin-left: 88px;
 
 }
 
@@ -41,16 +53,15 @@ h6{
 /*Menu Principal Nav*/
 nav{
 	margin-top: 3px;
-	background-color: black;
 }
 
 nav>hr{
-	border: solid 5px green;
+	border: solid 3px green;
 }
 
 nav>ul{
-	padding: 10px;
-
+	padding: 3px;
+	margin-left: 5%;
 }
 
 nav ul li{
@@ -60,16 +71,33 @@ nav ul li{
 	padding-right: 5px;
 }
 
+nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
 .borda-menu{
-	border-left: #FFF solid thin;
+	border-left: #00923F solid 2px;
 }
 
 /*Aside*/
 aside {
 	float : right;
-	background-color: darkolivegreen;
 	width: 195px;
 	height: 980px;
+}
+
+#linha-aside{
+	margin-left: -1px;
+	float: left;
+	height: 980px;
+	background-color: #00923F;
+	width: 4px;
 }
 
 aside #titulo-anuncio{
@@ -111,7 +139,24 @@ aside #titulo-anuncio{
 }
 
 #newsPrincipal h1{
-	margin-top: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16pt;
+	color: #00CA56;
+}
+
+#newsPrincipal h2{
+	font-family: 'Droid Sans Mono', monospace;
+	margin-top: 2px;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+
+#newsPrincipal p{
+	margin-top: 3px;
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 12pt;
+	text-align: justify;
 }
 
 .newsPrincipal{
@@ -119,24 +164,51 @@ aside #titulo-anuncio{
 	margin-left: 10px;
 }
 
+.hr-principal{
+	border: solid 2px #00923F;
+}
 /*noticias bloco 2*/
 
 #Quadro-Policia-1{
-	margin: 5px 4px 5px 5px;
-	padding: 5px;
+	margin: 0px 4px 5px 5px;
+	padding: 2px 5px 5px 5px;
 	width: 333px;
 	height: 350px;
 	float: left;
-	background-color: blue;
 }
 
 #Quadro-Policia-2{
-	margin: 5px 4px 5px 5px;
-	padding: 5px;
+	margin: 0px 4px 5px 5px;
+	padding: 2px 5px 5px 5px;
 	width: 333px;
 	height: 350px;
 	float: left;
-	background-color: brown;
+}
+
+.tag-policia{
+	font-family: 'Nunito', sans-serif;
+	color: #065A82;
+	font-size: 12pt;
+}
+
+.titulo_policia{
+	font-family: 'Nunito', sans-serif;
+	color: #065A82;
+}
+
+.texto-policia{
+	font-family: 'Droid Sans Mono', monospace;
+	text-align: justify;
+	font-size: 10pt;
+	padding-top: 2px;
+}
+
+.imagem-policia{
+	margin-top: 2px;
+}
+
+.hr-policia{
+	border: solid 2px #065A82;
 }
 
 /*noticias bloco 3*/
@@ -151,7 +223,8 @@ aside #titulo-anuncio{
 /*anuncio rodapé*/
 
 .anuncio-rodape{
-	margin: 5px;
+	margin-left: 10%;
+
 }
 
 /*noticias bloco geral -4*/
